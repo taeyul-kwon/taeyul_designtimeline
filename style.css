@@ -274,6 +274,20 @@ a:hover {
 .divider-dark-blue   { background-color: var(--color-dark-blue);   color: var(--color-text); }
 .divider-warm-brown  { background-color: var(--color-warm-brown);  color: var(--color-text); }
 
+/* Divider — image variant */
+.divider-image {
+    min-height: auto;
+    padding: 0;
+    background: transparent;
+}
+
+.divider-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+}
+
 /* ============================================ */
 /* SECTION: CONTENT (Generic)                   */
 /* ============================================ */
