@@ -245,11 +245,7 @@ a:hover {
 }
 
 .divider-number {
-    font-family: var(--font-heading);
-    font-size: clamp(1rem, 1.5vw, 1.4rem);
-    font-weight: 400;
-    letter-spacing: 0.15em;
-    opacity: 0.5;
+    display: none;
 }
 
 .divider-title {
