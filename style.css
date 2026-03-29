@@ -427,6 +427,32 @@ a:hover {
     letter-spacing: 0.05em;
 }
 
+.project-hero {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.project-hero-placeholder {
+    width: 100%;
+    aspect-ratio: 1920 / 1080;
+    max-height: 80vh;
+    background-color: #1A1A1A;
+    border: 1px dashed rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-hero img,
+.project-hero video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
 /* ============================================ */
 /* FOOTER                                       */
 /* ============================================ */
