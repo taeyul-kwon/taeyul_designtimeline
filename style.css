@@ -164,9 +164,10 @@ a:hover {
 .header-logo a {
     font-family: var(--font-heading);
     font-size: 1.6rem;
-    font-weight: 300;
+    font-weight: 900; /* Pretendard Black */
+    color: #004CF2;
     letter-spacing: 0.05em;
-    font-style: italic;
+    font-style: normal;
 }
 
 .header-nav {
