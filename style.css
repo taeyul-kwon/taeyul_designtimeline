@@ -271,6 +271,10 @@ a:hover {
 .divider-dark-blue   { background-color: var(--color-dark-blue);   color: var(--color-text); }
 .divider-warm-brown  { background-color: var(--color-warm-brown);  color: var(--color-text); }
 
+/* Custom Project Dividers */
+.divider-surge { background-color: #ffffff; color: #0049B9; }
+.divider-dashy { background-color: #ffffff; color: #000000; }
+.divider-melon { background-color: #ffffff; color: #1FD054; }
 /* Divider — image variant */
 .divider-image {
     min-height: auto;
